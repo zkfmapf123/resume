@@ -44,6 +44,14 @@ export namespace Header {
             }}>{str}</Label>
         )
     };
+
+    export const UrlLabel = ({str} : Props) =>{
+        return(
+            <UrlString style={{
+                
+            }}>{str}</UrlString>
+        )
+    }
 };
 
 export namespace Main {

@@ -9,6 +9,37 @@ type projectType = {
 
 export const MyProject : projectType[] = [
     {
+        date: '2021.05 ~ 진행 중',
+        title : "necipe",
+        skillSet : [
+            "React",
+            "React-Native",
+            "React-Navigation",
+            "Redux",
+            "Redux-thunk",
+            "Typescript",
+            "Xcode",
+            "Swift",
+            "SwiftUI",
+            "Nodejs",
+            "MySQL",
+            "Mocha",
+            "Golang",
+            "AWS EC2",
+            "Elastic Beanstalk",
+            "Docker",
+        ],
+        person: '팀 프로젝트 (2인)',
+        description: [
+            "음식 레시피를 공유하는 앱",
+            "친구추가 기능을 활용하여 각자의 레시피를 열람",
+            "찜하기, 댓글, 친구 신청 및 거절 커뮤니티 운영",
+            "React-Native -> IOS로 변경",
+            "Admin page 개발 중",
+        ],
+        url : 'https://github.com/zkfmapf123/portfolio-project/tree/master/necipe/necipe_front',
+    },
+    {
         date: '2020.10 ~ 2021.01',
         title : '개미처렁 공부해서 수능을 작살내자 (개수작)',
         skillSet: [
@@ -25,7 +56,7 @@ export const MyProject : projectType[] = [
             "오늘할일(Todo List), 공부 타이머, 일주일간의 통계 제공",
             "2021.3 ~ 2021.6 총 4개월간 운영 후 서비스 중단"
         ],
-        url: 'https://github.com/zkfmapf123/study_front'
+        url: 'https://github.com/zkfmapf123/portfolio-project/blob/master/study/study_front/README.md'
     },
     {
         date : "2020.06 ~ 2020.09",
@@ -44,7 +75,7 @@ export const MyProject : projectType[] = [
             "수업평가, 교수평가, 게시판, 찜목록을 통한 커뮤니티 운영",
             "교수의 반대로 서비스 중단 (2020.09 ~ 2021.02)"
         ],
-        url: 'https://github.com/zkfmapf123/ruby'
+        url: 'https://github.com/zkfmapf123/portfolio-project/tree/master/ruby'
     },
     {
         date : "2019.03 ~ 2019.06",
@@ -66,6 +97,6 @@ export const MyProject : projectType[] = [
             "특정시점에 Crawling 진행하여 정보를 Scrapping하는 형식으로 제공",
             "Ajax를 통한 비동기 통신을 사용"
         ],
-        url : "https://github.com/zkfmapf123/gongmo"
+        url : "https://github.com/zkfmapf123/portfolio-project/tree/master/gongmo"
     },
 ]
