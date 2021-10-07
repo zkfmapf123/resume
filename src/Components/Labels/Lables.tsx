@@ -8,6 +8,7 @@ const Label = st.p`
 `;
 
 const UrlString = st.a`
+    display : block;
     color : ${Color.COMMON_COLOR};
 `;
 
@@ -40,7 +41,8 @@ export namespace Header {
     export const CommonLabel = ({str} : Props) =>{
         return(
             <Label style={{
-
+                marginTop : 4,
+                marginBottom : 4,
             }}>{str}</Label>
         )
     };
@@ -48,7 +50,8 @@ export namespace Header {
     export const UrlLabel = ({str} : Props) =>{
         return(
             <UrlString style={{
-                
+                marginTop : 4,
+                marginBottom : 4
             }}>{str}</UrlString>
         )
     }
@@ -85,7 +88,14 @@ export namespace Main {
 
     export const UrlLabel = ({str} : Props) =>{
         return(
-            <UrlString href={str}>{str}</UrlString>
+            <UrlString style={{
+                width : 300,
+                overflow : "hidden",
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+                marginTop : 5,
+                marginBottom : 5,
+            }} href={str}>{str}</UrlString>
         )
     };
 

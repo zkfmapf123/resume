@@ -1,4 +1,4 @@
-import { Header } from "Components/Labels/Lables";
+import { Header, Main } from "Components/Labels/Lables";
 import React from "react";
 import st from "styled-components";
 import { ResumeProfile } from "Utils/Resume/Profile";
@@ -13,9 +13,9 @@ export const Profile = () =>{
             <Header.JobLabel str={ResumeProfile.want}/>
             <Header.CommonLabel str ={ResumeProfile.job}/>
             <Header.CommonLabel str ={ResumeProfile.year}/>
-            <Header.UrlLabel str ={ResumeProfile.email}/>
-            <Header.UrlLabel str ={ResumeProfile.github}/>
-            <Header.UrlLabel str ={ResumeProfile.blog}/>
+            <Main.UrlLabel str ={ResumeProfile.email}/>
+            <Main.UrlLabel str ={ResumeProfile.github}/>
+            <Main.UrlLabel str ={ResumeProfile.blog}/>
             <Header.CommonLabel str ={"010 - 9341 -1762"}/>
         </Container>
     );    
